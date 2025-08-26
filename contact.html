@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Contact — Worth Goss</title>
+  <meta name="description" content="Contact Worth Goss to collaborate, contribute, or ask a question." />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<header class="site-header">
+  <div class="container nav">
+    <a class="brand" href="index.html">Worth Goss</a>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="blog.html">Blog</a>
+      <a href="submit.html">Submit</a>
+      <a class="active" href="contact.html">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<section class="container">
+  <h1>Contact</h1>
+  <p>We’d love to collaborate. Send a message below:</p>
+
+  <form class="form" action="https://formspree.io/f/YOUR-FORMSPREE-ID" method="POST">
+    <input class="input" type="text" name="name" placeholder="Your Name" required />
+    <input class="input" type="email" name="email" placeholder="Your Email" required />
+    <textarea class="input" name="message" rows="5" placeholder="Your Message" required></textarea>
+    <button class="btn primary" type="submit">Send</button>
+  </form>
+
+  <p class="muted">Or email: <a href="mailto:youremail@example.com">youremail@example.com</a></p>
+</section>
+
+<footer class="site-footer">
+  <div class="container">
+    <p>© <span id="year"></span> Worth Goss</p>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
