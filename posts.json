@@ -1,0 +1,26 @@
+[
+  {
+    "slug": "ai-study-starter",
+    "title": "AI Study Starter: What to Learn First",
+    "excerpt": "A simple path to begin learning AI without getting overwhelmed.",
+    "date": "2025-08-20",
+    "tag": "AI & Skills",
+    "html": "<p>Start with Python basics, then linear algebra, and move into practical projects like classification and sentiment analysis. Use free datasets, and build mini-projects before jumping to deep learning.</p>"
+  },
+  {
+    "slug": "uni-application-checklist",
+    "title": "University Application Checklist (Global)",
+    "excerpt": "Deadlines, documents, and tips you shouldn’t miss.",
+    "date": "2025-08-18",
+    "tag": "University",
+    "html": "<ul><li>Prepare transcripts and recommendations early.</li><li>Write a focused statement of purpose.</li><li>Show real projects in your portfolio.</li></ul>"
+  },
+  {
+    "slug": "motivation-routine",
+    "title": "A 20-Minute Motivation Routine",
+    "excerpt": "Daily micro-habits to stay consistent and positive.",
+    "date": "2025-08-15",
+    "tag": "Motivation",
+    "html": "<p>Try the 5-5-10 rule: five minutes to plan, five to reflect, and ten for a quick learning sprint. Track wins in a simple note daily.</p>"
+  }
+]
