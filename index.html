@@ -3,59 +3,135 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-  <!-- SEO Essentials -->
-  <title>WorthGoals - Achieve Your Dreams</title>
-  <meta name="description" content="WorthGoals helps you track goals, share reviews, read blogs, and stay motivated. Join the community and achieve your dreams!">
-  <meta name="keywords" content="WorthGoals, goals, motivation, reviews, blog, success, community">
-  <meta name="author" content="Afifa Azad">
-
-  <!-- Social Media Sharing -->
-  <meta property="og:title" content="WorthGoals - Achieve Your Dreams">
-  <meta property="og:description" content="WorthGoals is a digital space to set goals, share stories, and stay motivated.">
-  <meta property="og:type" content="website">
-  <meta property="og:url" content="https://azadafifa25-tech.github.io/worthgoals/">
-  <meta property="og:image" content="https://azadafifa25-tech.github.io/worthgoals/images/cover.jpg">
-
-  <!-- Favicon (optional) -->
-  <link rel="icon" href="favicon.ico" type="image/x-icon">
+  <title>Worth Goss - Digital Education Hub</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      background: #f9f9f9;
+      color: #333;
+    }
+    header {
+      background: #ff6600;
+      color: #fff;
+      padding: 1rem 2rem;
+      text-align: center;
+    }
+    nav {
+      margin-top: 1rem;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 1rem;
+      font-weight: bold;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    .section {
+      padding: 3rem 2rem;
+      max-width: 900px;
+      margin: auto;
+    }
+    h1, h2 {
+      text-align: center;
+    }
+    .btn {
+      display: inline-block;
+      background: #ff6600;
+      color: #fff;
+      padding: 0.7rem 1.2rem;
+      text-decoration: none;
+      border-radius: 5px;
+      margin-top: 1rem;
+    }
+    form {
+      display: flex;
+      flex-direction: column;
+      max-width: 500px;
+      margin: auto;
+    }
+    form label {
+      margin: 0.5rem 0 0.2rem;
+    }
+    form input, form textarea {
+      padding: 0.5rem;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+    form button {
+      margin-top: 1rem;
+      padding: 0.7rem;
+      border: none;
+      background: #ff6600;
+      color: #fff;
+      font-size: 1rem;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    form button:hover {
+      background: #e55b00;
+    }
+    footer {
+      background: #222;
+      color: #fff;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 2rem;
+    }
+  </style>
 </head>
-
 <body>
   <header>
-    <h1>Welcome to WorthGoals</h1>
+    <h1>Worth Goss</h1>
+    <p>Global Digital Education & ICT Motivation</p>
     <nav>
-      <a href="#home">Home</a>
-      <a href="#reviews">Reviews</a>
+      <a href="#about">About</a>
       <a href="#blog">Blog</a>
-      <a href="#goals">Goals</a>
+      <a href="#contact">Contact</a>
     </nav>
   </header>
 
-  <section id="home">
-    <h2>Your journey starts here 🚀</h2>
-    <p>WorthGoals helps you set goals, stay motivated, and connect with others.</p>
+  <section id="about" class="section">
+    <h2>About</h2>
+    <p>
+      Welcome to <strong>Worth Goss</strong> – a global hub for digital intelligence, 
+      ICT education, and motivational resources. Our goal is to help students, 
+      educators, and professionals improve their skills, understand the current 
+      education system, and stay motivated in their learning journey.
+    </p>
   </section>
 
-  <section id="reviews">
-    <h2>Reviews</h2>
-    <p>Read and share inspiring stories from people achieving their dreams.</p>
+  <section id="blog" class="section">
+    <h2>Blog & Reviews</h2>
+    <p>
+      Here you’ll find inspiring articles, educational news, and student reviews.  
+      Visitors can share their thoughts, write articles, and submit ideas to make 
+      this platform more useful for learners around the world.
+    </p>
+    <a href="#" class="btn">Coming Soon...</a>
   </section>
 
-  <section id="blog">
-    <h2>Blog</h2>
-    <p>Articles, tips, and success stories to keep you inspired every day.</p>
-  </section>
+  <section id="contact" class="section">
+    <h2>Contact Me</h2>
+    <form action="https://formspree.io/f/xldwenko" method="POST">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
 
-  <section id="goals">
-    <h2>Track Your Goals</h2>
-    <p>Set goals, track your progress, and celebrate milestones 🎉</p>
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="_replyto" required>
+
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" required></textarea>
+
+      <button type="submit">Send Message</button>
+    </form>
   </section>
 
   <footer>
-    <p>&copy; 2025 WorthGoals | Built with ❤️ by Afifa Azad</p>
+    <p>&copy; 2025 Worth Goss | Designed by Afifa Azad</p>
   </footer>
-
-  <script src="script.js"></script>
 </body>
 </html>
